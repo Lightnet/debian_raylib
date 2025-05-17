@@ -15,10 +15,14 @@
 ```
 chmod +x ./build.sh
 ```
+```
+chmod +x ./run.sh
+```
 
 Linux permission access to build.sh
 
 # Linux packages:
+  Dev tool
 ```
 sudo apt install cmake
 sudo apt install gcc
@@ -34,13 +38,20 @@ sudo apt install make
 sudo apt-get install libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libglu1-mesa-dev
 ```
 
-# refs:
+# References:
 ```
-sudo apt-get install libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev
+sudo apt-get install libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev 
 ```
+raylib need libraries.
+
 
 ```
 libglu1-mesa-dev
 libgl1-mesa-dev
 freeglut3-dev
 ```
+open graphic
+
+libglu1-mesa-dev ( GLU )
+libgl1-mesa-dev ( GLX and DRI )
+freeglut3-dev ( GLUT )
